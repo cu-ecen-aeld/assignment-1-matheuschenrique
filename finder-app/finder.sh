@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# != 2 ]; then
+if [ $# -ne 2 ]; then
 	echo "Wrong number of arguments"
 	exit 1
 fi
